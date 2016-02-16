@@ -13,8 +13,9 @@
       <HBox prefHeight="23.0" prefWidth="600.0">
          <children>
             <TextField fx:id="text" HBox.hgrow="ALWAYS" />
-            <Button mnemonicParsing="false" onAction="#addItem" text="Add" />
-            <Button mnemonicParsing="false" onAction="#removeItem" text="Remove" />
+            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#addItem" text="Add" />
+            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#removeItem" text="Remove" />
+            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#toggleItem" text="Toggle" />
          </children>
       </HBox>
       <ListView fx:id="list" prefHeight="200.0" prefWidth="600.0" VBox.vgrow="ALWAYS" />
